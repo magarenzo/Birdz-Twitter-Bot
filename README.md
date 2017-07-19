@@ -2,7 +2,7 @@
 
 Twitter bot that tweets random facts about birds daily
 
-Basic framework forked from [molly/twitterbot_framework](https://github.com/molly/twitterbot_framework) for creating Twitter bots using Python 3 and [tweepy](http://www.tweepy.org). This goes along with her [tutorial](http://blog.mollywhite.net/twitter-bots-pt2/) on creating Twitter bots.
+Python script pulls what to tweet from *facts.txt* (while also deleting that line from the file so that it doesn't get used again), authenticates connection to the twitter account and attempts to send out the tweet. Whatever occurs is written to a log file. Crontab used for scheduling daily automation.
 
 ---
 
@@ -10,7 +10,7 @@ Basic framework forked from [molly/twitterbot_framework](https://github.com/moll
 
 ---
 
-Python script pulls what to tweet from *facts.txt* (while also deleting that line from the file so that it doesn't get used again), authenticates connection to the twitter account and attempts to send out the tweet. Whatever occurs is written to a log file. Crontab used for scheduling daily automation.
+Basic framework forked from [molly/twitterbot_framework](https://github.com/molly/twitterbot_framework) for creating Twitter bots using Python 3 and [tweepy](http://www.tweepy.org). This goes along with her [tutorial](http://blog.mollywhite.net/twitter-bots-pt2/) on creating Twitter bots.
 
 ---
 
