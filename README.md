@@ -4,7 +4,7 @@ Basic framework forked from [molly/twitterbot_framework](https://github.com/moll
 
 ---
 
-**[fli_birdz_bot]**(https://twitter.com/fli_birdz_bot)
+**[fli_birdz_bot](https://twitter.com/fli_birdz_bot)**
 
 ---
 
