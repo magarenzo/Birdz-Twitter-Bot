@@ -6,7 +6,7 @@ Python script pulls what to tweet from *facts.txt* (while also deleting that lin
 
 ---
 
-**[fli_birdz_bot](https://twitter.com/fli_birdz_bot)**
+**[@fli_birdz_bot](https://twitter.com/fli_birdz_bot)**
 
 ---
 
