@@ -4,7 +4,7 @@ Twitter bot that tweets random facts about birds daily
 
 Python script pulls what to tweet from *facts.txt* (while also deleting that line from the file so that it doesn't get used again), authenticates connection to the twitter account and attempts to send out the tweet. Whatever occurs is written to a log file. Crontab used for scheduling daily automation.
 
-The bot will send a tweet everyday at noon (Eastern time) starting on 7/24/2017. I will end the automation on 8/17/2017.
+The bot will send a tweet everyday at 12:30pm (Eastern time) starting on 7/24/2017. I will end the automation on 8/17/2017.
 
 ---
 
