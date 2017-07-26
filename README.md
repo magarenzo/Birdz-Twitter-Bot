@@ -10,9 +10,7 @@ Python script *bot.py* pulls what to tweet from *facts.txt* (while also deleting
 
 ---
 
-The bot will send a tweet everyday at 12pm (Eastern time) starting on 7/26/2017. I will end the automation on 9/20/2017.
-
-**[@fli_birdz_bot](https://twitter.com/fli_birdz_bot)**
+**[@fli_birdz_bot](https://twitter.com/fli_birdz_bot)**: The bot will send a tweet everyday at 12pm (Eastern time) starting on 7/26/2017. I will end the automation on 9/20/2017. (The bot also follows back its followers everyday at the same time.)
 
 ---
 
