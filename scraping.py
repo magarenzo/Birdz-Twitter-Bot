@@ -3,7 +3,7 @@ import requests
 
 # TODO: remove repition using recursion
 
-# 46 tweets below | start date: 7/26/17 | end date: 9/10
+# 46 tweets below | start date: 7/26/17 | end date: 9/9
 
 facts = './facts.txt'
 
