@@ -5,7 +5,7 @@ import requests
 
 # 46 tweets below | start date: 7/26/17 | end date: 9/20
 
-facts = 'C:\facts.txt'
+facts = './facts.txt'
 
 # 11 tweets
 url = 'http://www.sciencekids.co.nz/sciencefacts/animals/bird.html'
