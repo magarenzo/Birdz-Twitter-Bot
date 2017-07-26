@@ -49,6 +49,12 @@ def log(message):
         t = strftime('%d %b %Y %H:%M:%S', gmtime())
         f.write("\n" + t + " " + str(message))
 
+# Activate the functions written above
+        
 if __name__ == '__main__':
     tweet_text = create_tweet()
     tweet(tweet_text)
+    #Follow back followers
+    for follower in tweepy.Cursor(api.followers).items():
+      follower.follow()
+      log("Followed: " + follower.screen_name)
