@@ -54,6 +54,3 @@ if __name__ == '__main__':
     tweet_text = create_tweet()
     tweet(tweet_text)
     #Follow back followers
-    for follower in tweepy.Cursor(api.followers).items():
-      follower.follow()
-      log("Followed: " + follower.screen_name)
