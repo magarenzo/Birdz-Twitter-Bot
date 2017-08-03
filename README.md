@@ -8,7 +8,7 @@ Python script *scraping.py* scrapes four chosen webpages for the bird facts that
 
 Python script *bot.py* pulls what to tweet from *facts.txt* (while also deleting that line from the file so that it doesn't get used again), authenticates connection to the Twitter account and attempts to send out the tweet. Whatever occurs is written to a log file. Crontab used for scheduling daily automation.
 
-Python script *follow-back.py* makes sure that the account is following all of its followers.
+Python script *follow-back.py* makes sure that the account is following all of its followers. Whatever occurs is written to the same log file written to in *bot.py*.
 
 ---
 
