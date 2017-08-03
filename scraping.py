@@ -48,7 +48,7 @@ for child in children:
     f.write(fact + "\n")
 f.close()
 
-# Store facts already written from the first scrape and second scrapes
+# Store facts already written from the first and second scrapes
 f = open(facts, 'r')
 lines = f.readlines()
 f.close()
