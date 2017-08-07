@@ -4,15 +4,15 @@ Twitter bot that tweets random facts about birds daily
 
 ---
 
-Python script *scraping.py* scrapes four chosen webpages for the bird facts that are shown on each. If the fact is less than or equal to 140 characters, it is written to *facts.txt*. This script is only run once prior to the first automated running of *bot.py* so as to create and fill *facts.txt*. I created this using [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) and [Requests](http://docs.python-requests.org/en/master/).
+`scraping.py` scrapes predetermined webpages for the bird facts that are shown on each. If the fact is less than or equal to 140 characters, it is written to `facts.txt`. This script is only run once prior to the first automated running of `bot.py` so as to create and fill `facts.txt`. I created this using [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) and [Requests](http://docs.python-requests.org/en/master/).
 
-Python script *bot.py* pulls what to tweet from *facts.txt* (while also deleting that line from the file so that it doesn't get used again), authenticates connection to the Twitter account and attempts to send out the tweet. Whatever occurs is written to a log file. Crontab used for scheduling daily automation.
+`bot.py` pulls what to tweet from `facts.txt` (while also deleting that line from the file so that it doesn't get used again), authenticates connection to the Twitter account and attempts to send out the tweet. Whatever occurs is written to a log file. [Crontab](http://crontab.org/) used for scheduling daily automation.
 
-Python script *follow-back.py* makes sure that the account is following all of its followers. Whatever occurs is written to the same log file written to in *bot.py*.
+`follow-back.py` makes sure that the account is following all of its followers. Whatever occurs is written to the same log file written to in `bot.py`.
 
 ---
 
-**[@fli_birdz_bot](https://twitter.com/fli_birdz_bot)**: The bot will send a tweet everyday at 12pm (Eastern time) starting on 7/26/2017. I will end the automation on 9/9/2017.
+**[@fli_birdz_bot](https://twitter.com/fli_birdz_bot)**: The bot will send a tweet everyday at 12pm (Eastern time) starting on 7/26/2017. I will either end the automation or scrape more webpages on or after 9/9/2017.
 
 ---
 
