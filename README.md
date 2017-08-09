@@ -10,6 +10,8 @@ Twitter bot that tweets random facts about birds daily
 
 `follow-back.py` makes sure that the account is following all of its followers. Whatever occurs is written to the same log file written to in `bot.py`.
 
+`crontab.txt` provides an example of how the automation can be set up.
+
 ---
 
 **[@fli_birdz_bot](https://twitter.com/fli_birdz_bot)**: The bot will send a tweet everyday at 12pm (Eastern time) starting on 7/26/2017. I will either end the automation or scrape more webpages on or after 9/9/2017.
