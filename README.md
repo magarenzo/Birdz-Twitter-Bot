@@ -1,6 +1,6 @@
 # fli-birdz-twitter-bot
 
-Twitter bot that tweets random facts about birds daily
+Create a simple Twitter bot using Python
 
 ---
 
