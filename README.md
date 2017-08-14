@@ -26,4 +26,4 @@ I use [Crontab](http://crontab.org/) for scheduling daily automation. <i>crontab
 
 ---
 
-**[@fli_birdz_bot](https://twitter.com/fli_birdz_bot)** was created so that my team has a supply of random bird facts to cheer.
+**[@fli_birdz_bot](https://twitter.com/fli_birdz_bot)** was created so that my team would have a supply of random bird facts to cheer. This bot's automation has been terminated because [simple-groupme-bot](https://github.com/magarenzo/simple-groupme-bot) proved to be a better way to share bird facts with my team.
