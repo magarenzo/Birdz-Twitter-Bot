@@ -1,6 +1,6 @@
 # twitter-bot
 
-Create a simple Twitter bot using Python
+Request webpages, scrape for data and use it to create tweets
 
 ---
 
