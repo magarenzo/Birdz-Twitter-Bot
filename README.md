@@ -16,7 +16,7 @@ I use [Crontab](http://crontab.org/) for scheduling daily automation. <i>crontab
 
 <h3>Necessary installations:</h3>
 
-[`python3`](https://www.python.org/download/releases/3.0/)
+[`python3`](https://docs.python.org/3/)
 
 [`python3-bs4`](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
 
