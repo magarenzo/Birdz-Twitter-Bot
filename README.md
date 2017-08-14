@@ -14,7 +14,7 @@ I use [Crontab](http://crontab.org/) for scheduling daily automation. <i>crontab
 
 ---
 
-<h3>Necessary installations:</h3>
+<h3>Necessary Installations:</h3>
 
 [`python3`](https://docs.python.org/3/)
 
