@@ -1,4 +1,4 @@
-# fli-birdz-twitter-bot
+# twitter-bot
 
 Create a simple Twitter bot using Python
 
