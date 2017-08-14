@@ -14,4 +14,16 @@ I use [Crontab](http://crontab.org/) for scheduling daily automation. <i>crontab
 
 ---
 
+<h3>Necessary installations:</h3>
+
+[`python3`](https://www.python.org/download/releases/3.0/)
+
+[`python3-bs4`](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
+
+[`python-requests`](http://docs.python-requests.org/en/master/)
+
+[`tweepy`](http://www.tweepy.org)
+
+---
+
 **[@fli_birdz_bot](https://twitter.com/fli_birdz_bot)** was created so that my team has a supply of random bird facts to cheer.
