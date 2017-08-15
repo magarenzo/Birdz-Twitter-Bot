@@ -9,7 +9,6 @@ logfile_name = bot_username + ".log"
 
 # Read first line from file and delete it
 def create_tweet():
-
   facts = '/home/mike/fli-birdz-twitter-bot-master/facts.txt'
 
   f = open(facts, 'r')
@@ -29,7 +28,6 @@ def create_tweet():
 
 # Authenticate connection to twitter account and send the tweet
 def tweet(text):
-
   auth = tweepy.OAuthHandler(C_KEY, C_SECRET)
   auth.set_access_token(A_TOKEN, A_TOKEN_SECRET)
   api = tweepy.API(auth)
@@ -43,12 +41,12 @@ def tweet(text):
 
 # Write to the log what occurred when trying to authenticate / send the tweet
 def log(message):
-
   path = os.path.realpath(os.path.join(os.getcwd(), os.path.dirname(__file__)))
   with open(os.path.join(path, logfile_name), 'a+') as f:
     t = strftime('%d %b %Y %H:%M:%S', gmtime())
     f.write("\n" + t + " " + str(message))
 
+# Activate the functions written above
 def main():
   tweet_text = create_tweet()
   tweet(tweet_text)
