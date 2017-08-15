@@ -3,7 +3,7 @@
 from BeautifulSoup import BeautifulSoup
 import requests
 
-# 46 tweets below | start date: 7/26/17 | end date: 9/20
+# 46 tweets generated below
 
 facts = 'facts.txt'
 
