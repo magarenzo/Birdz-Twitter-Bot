@@ -45,7 +45,6 @@ def log(message):
     t = strftime('%d %b %Y %H:%M:%S', gmtime())
     f.write("\n" + t + " " + str(message))
 
-# Activate the functions written above
 def main():
   tweet_text = create_tweet()
   tweet(tweet_text)
