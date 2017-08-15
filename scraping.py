@@ -5,7 +5,7 @@ import requests
 
 # 46 tweets generated below
 
-facts = './facts.txt'
+facts = 'facts.txt'
 
 # 11 tweets
 url = 'http://www.sciencekids.co.nz/sciencefacts/animals/bird.html'
@@ -39,13 +39,13 @@ div = soup.find('div', {'class': 'leftColumn'})
 children = div.findChildren('p')
 f = open(facts, 'w')
 for line in lines:
-  f.write(line)
+        f.write(line)
 for child in children:
-  line = child.text
-  fact = line.encode('ascii', 'ignore')
-  count = len(fact)
-  if (count <= 140):
-    f.write(fact + "\n")
+        line = child.text
+        fact = line.encode('ascii', 'ignore')
+        count = len(fact)
+        if (count <= 140):
+                f.write(fact + "\n")
 f.close()
 
 # Store facts already written from the first scrape and second scrapes
@@ -63,13 +63,13 @@ div = soup.find('div', {'class': 'artext'})
 children = div.findChildren('p')
 f = open(facts, 'w')
 for line in lines:
-  f.write(line)
+        f.write(line)
 for child in children:
-  line = child.text
-  fact = line.encode('ascii', 'ignore')
-  count = len(fact)
-  if (count <= 140):
-    f.write(fact + "\n")
+        line = child.text
+        fact = line.encode('ascii', 'ignore')
+        count = len(fact)
+        if (count <= 140):
+                f.write(fact + "\n")
 f.close()
 
 # Store facts already written from the first, second and third scrapes
@@ -87,11 +87,11 @@ div = soup.find('div', {'class': 'entry-content'})
 children = div.findChildren('li')
 f = open(facts, 'w')
 for line in lines:
-  f.write(line)
+        f.write(line)
 for child in children:
-  line = child.text
-  fact = line.encode('ascii', 'ignore')
-  count = len(fact)
-  if (count <= 140):
-    f.write(fact + "\n")
+        line = child.text
+        fact = line.encode('ascii', 'ignore')
+        count = len(fact)
+        if (count <= 140):
+                f.write(fact + "\n")
 f.close()
