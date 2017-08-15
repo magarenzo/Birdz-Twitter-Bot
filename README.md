@@ -1,6 +1,6 @@
 # twitter-bot
 
-Request webpages, scrape for data and use it to create tweets
+Request webpages, scrape for and use data to create tweets
 
 ---
 
