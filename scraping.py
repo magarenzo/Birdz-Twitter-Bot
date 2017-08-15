@@ -1,11 +1,11 @@
+#!/usr/bin/env python
+
 from BeautifulSoup import BeautifulSoup
 import requests
 
-# TODO: remove repition using recursion
+# 46 tweets below | start date: 7/26/17 | end date: 9/20
 
-# 46 tweets below | start date: 7/26/17 | end date: 9/9
-
-facts = './facts.txt'
+facts = 'facts.txt'
 
 # 11 tweets
 url = 'http://www.sciencekids.co.nz/sciencefacts/animals/bird.html'
@@ -17,11 +17,11 @@ ul = soup.find('ul', {'class': 'style33'})
 children = ul.findChildren('p')
 f = open(facts, 'w')
 for child in children:
-	line = child.text
-	fact = line.encode('ascii', 'ignore')
-	count = len(fact)
-	if (count <= 140):
-		f.write(fact + "\n")
+        line = child.text
+        fact = line.encode('ascii', 'ignore')
+        count = len(fact)
+        if (count <= 140):
+                f.write(fact + "\n")
 f.close()
 
 # Store facts already written from the first scrape
@@ -48,7 +48,7 @@ for child in children:
     f.write(fact + "\n")
 f.close()
 
-# Store facts already written from the first and second scrapes
+# Store facts already written from the first scrape and second scrapes
 f = open(facts, 'r')
 lines = f.readlines()
 f.close()
