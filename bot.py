@@ -4,8 +4,7 @@ import os, tweepy
 from secrets import *
 from time import gmtime, strftime
 
-bot_username = "fli_birdz_bot"
-logfile_name = bot_username + ".log"
+logfile_name = "fli_birdz_bot.log"
 
 # Read first line from file and delete it
 def create_tweet():
