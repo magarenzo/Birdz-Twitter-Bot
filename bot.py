@@ -22,7 +22,7 @@ def create_tweet():
                 f = open(facts, 'w')
                 for line in lines:
                         if line != (text):
-                        f.write(line)
+                                f.write(line)
                 return text
 
 # Authenticate connection to twitter account and send the tweet
