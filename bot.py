@@ -9,7 +9,7 @@ logfile_name = bot_username + ".log"
 
 # Read first line from file and delete it
 def create_tweet():
-  facts = '/home/mike/fli-birdz-twitter-bot-master/facts.txt'
+  facts = './facts.txt'
 
   f = open(facts, 'r')
   text = f.readline()
