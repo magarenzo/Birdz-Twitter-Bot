@@ -16,13 +16,13 @@ I use [Crontab](http://crontab.org/) for scheduling daily automation. <i>crontab
 
 <h3>Necessary Installations:</h3>
 
-[`python3`](https://docs.python.org/3/)
+* [`python3`](https://docs.python.org/3/)
 
-[`python3-bs4`](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
+  * [`python3-bs4`](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
 
-[`python-requests`](http://docs.python-requests.org/en/master/)
+  * [`python-requests`](http://docs.python-requests.org/en/master/)
 
-[`tweepy`](http://www.tweepy.org)
+  * [`tweepy`](http://www.tweepy.org)
 
 ---
 
