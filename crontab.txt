@@ -1,3 +1,0 @@
-0 12 * * * python ./bot.py
-
-0 0,6,12,18 * * * python ./follow-back.py
