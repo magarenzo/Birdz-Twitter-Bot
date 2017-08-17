@@ -13,9 +13,11 @@ api = tweepy.API(auth)
 
 # Follow back followers
 def follow():
+        followed = ''
         for follower in tweepy.Cursor(api.followers).items():
                 follower.follow()
-                log("Followed: " + follower.screen_name)
+                followed += (follower.screen_name + ' ')
+                log('Followed: ' + followed)
 
 # Write to the log what occurred when trying to authenticate / send the tweet
 def log(message):
