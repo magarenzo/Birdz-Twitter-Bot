@@ -28,6 +28,12 @@ Basic framework for *bot.py* was forked from [molly/twitterbot_framework](https:
 
 ---
 
+<h3>Crontab:</h3>
+
+`0 12 * * * python ./bot.py`<br>`0 0,6,12,18 * * * python ./follow-back.py`
+
+---
+
 <h3>To Do:</h3>
 
 * If the tweet fails to send, do not delete a line from the text file
