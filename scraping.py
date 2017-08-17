@@ -5,7 +5,7 @@ import requests
 
 # 46 tweets generated below
 
-facts = 'facts.txt'
+facts = './facts.txt'
 
 # 11 tweets
 url = 'http://www.sciencekids.co.nz/sciencefacts/animals/bird.html'
