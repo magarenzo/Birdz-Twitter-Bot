@@ -40,6 +40,8 @@ Basic framework for *bot.py* was forked from [molly/twitterbot_framework](https:
 
 * Improve <i>scraping.py</i>
 
+* Use log for error handling
+
 ---
 
 **[@fli_birdz_bot](https://twitter.com/fli_birdz_bot)** was created so that my team would have a supply of random bird facts to cheer.
