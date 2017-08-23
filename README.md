@@ -16,6 +16,14 @@ Basic framework for *bot.py* was forked from [molly/twitterbot_framework](https:
 
 ---
 
+<h3>Output:</h3>
+
+<h5><i>scraping.py</i>:</h5>
+
+`46 facts written to ./facts.txt for tweeting`
+
+---
+
 <h3>Necessary Installations:</h3>
 
 * [`python3`](https://docs.python.org/3/)
