@@ -44,11 +44,11 @@ Basic framework for *bot.py* was forked from [molly/twitterbot_framework](https:
 
 <h3>To Do:</h3>
 
-* If the tweet fails to send, do not delete a line from the text file
+* If <i>bot.py</i> fails to send a tweet, do not delete that fact from the text file
 
-* Improve <i>scraping.py</i>
+* Remove repitition from <i>scraping.py</i>
 
-* Use log for error handling
+* Add error handling to <i>bot.py</i> and use a second log to record occurences
 
 ---
 
