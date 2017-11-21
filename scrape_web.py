@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-from BeautifulSoup import BeautifulSoup
+from bs4 import BeautifulSoup
 import requests
 
 # 46 tweets generated below
