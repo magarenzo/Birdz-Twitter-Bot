@@ -45,5 +45,3 @@ Basic framework for [*bot.py*](src/bot.py) was forked from [molly/twitterbot_fra
 Michael A. Agarenzo
 
 This was created so that my team would have a supply of random bird facts to cheer
-
-[&#127867; Buy me a cider, or three!](https://www.buymeacoffee.com/magarenzo)
