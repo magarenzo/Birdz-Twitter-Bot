@@ -42,6 +42,8 @@ Basic framework for [*bot.py*](src/bot.py) was forked from [molly/twitterbot_fra
 
 ## Owner
 
-* Michael A. Agarenzo
+Michael A. Agarenzo
 
-* **[@fli_birdz_bot](https://twitter.com/fli_birdz_bot)** was created so that my team would have a supply of random bird facts to cheer (no longer actively tweeting)
+This was created so that my team would have a supply of random bird facts to cheer
+
+[&#127867; Buy me a cider, or three!](https://www.buymeacoffee.com/magarenzo)
