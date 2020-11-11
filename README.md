@@ -10,7 +10,9 @@ Request webpages, scrape for and use data to create tweets
 
 `follow_back.py` makes sure that the account is following all of its followers. Whatever occurs is written to the same log file written to in `bot.py`
 
-### Output (`scrape_web.py`)
+### Output
+
+#### scrape_web.py
 
 ```
 46 facts written to ./facts.txt for tweeting
