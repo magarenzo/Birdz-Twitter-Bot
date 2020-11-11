@@ -14,13 +14,13 @@ I use Crontab for scheduling daily automation
 
 Basic framework for `bot.py` was forked from [molly/twitterbot_framework](https://github.com/molly/twitterbot_framework) for creating Twitter bots using [Tweepy](http://www.tweepy.org). This goes along with her [tutorial](http://blog.mollywhite.net/twitter-bots-pt2/) on creating Twitter bots
 
-## Output (`scrape_web.py`)
+### Output (`scrape_web.py`)
 
 ```
 46 facts written to ./facts.txt for tweeting
 ```
 
-## Crontab
+### Crontab
 
 ```
 0 12 * * * python ./bot.py`<br>`0 0,6,12,18 * * * python ./follow_back.py
