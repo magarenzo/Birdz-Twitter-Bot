@@ -10,10 +10,6 @@ Request webpages, scrape for and use data to create tweets
 
 `follow_back.py` makes sure that the account is following all of its followers. Whatever occurs is written to the same log file written to in `bot.py`
 
-I use Crontab for scheduling daily automation
-
-Basic framework for `bot.py` was forked from [molly/twitterbot_framework](https://github.com/molly/twitterbot_framework) for creating Twitter bots using [Tweepy](http://www.tweepy.org). This goes along with her [tutorial](http://blog.mollywhite.net/twitter-bots-pt2/) on creating Twitter bots
-
 ### Output (`scrape_web.py`)
 
 ```
@@ -30,9 +26,17 @@ Basic framework for `bot.py` was forked from [molly/twitterbot_framework](https:
 
 * [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
 
+* [Crontab](http://crontab.org/)
+
 * [requests](http://docs.python-requests.org/en/master/)
 
 * [tweepy](http://www.tweepy.org)
+
+## Resources
+
+* I use Crontab for scheduling daily automation
+
+* Basic framework for `bot.py` was forked from [molly/twitterbot_framework](https://github.com/molly/twitterbot_framework) for creating Twitter bots using [Tweepy](http://www.tweepy.org). This goes along with her [tutorial](http://blog.mollywhite.net/twitter-bots-pt2/) on creating Twitter bots
 
 ## TODO
 
