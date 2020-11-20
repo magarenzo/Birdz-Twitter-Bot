@@ -1,4 +1,4 @@
-# Birds Twitter Bot
+# Birdz Twitter Bot
 
 Request webpages, scrape for and use data to create tweets
 
