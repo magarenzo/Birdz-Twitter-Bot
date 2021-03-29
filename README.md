@@ -50,6 +50,6 @@ Request webpages, scrape for and use data to create tweets
 
 ## Owner
 
-[Michael A. Agarenzo](https://magarenzo.com)
+[Michael A.](https://linkedin.com/in/magarenzo)
 
 This was originally created so that my old team would have a supply of random bird facts to cheer
